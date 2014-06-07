@@ -1,0 +1,22 @@
+body {
+	background-color: #2ECCFA;
+}
+#container header {
+	font-size: 20px;
+}
+#container p {
+	margin: 0px;
+	padding: 0px;
+}
+.bold-it {
+	font-weight: bolder;
+}
+img {
+	border: solid;
+	border-width: 2px;
+}
+.italy {
+	font-size: 20px;
+
+	font-style: italic;
+}
