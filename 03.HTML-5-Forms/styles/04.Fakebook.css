@@ -1,0 +1,92 @@
+body {
+	background-color:#3B5997;
+	color: #fff;
+	width: 950px;
+	height: 590px;
+	font-family: Tahoma;
+}
+h1, h2, h3 {
+	text-align: center;
+}
+h1 {
+	font-size: 100px;
+	margin: 0px;
+}
+h2 {
+	font-size: 35px;
+	padding: 0px;
+	margin: 0px;
+}
+span {
+	font-size: 15px;
+	padding-left: 5px;
+}
+.nonImportant {
+	width: 36%;
+	border-radius: 5px;
+	float:left;
+	margin-right: 30px;
+	height: 240px;
+}
+.important {
+	width: 46%;
+	height: 240px;
+	border-radius: 5px;
+}
+.left-side {
+	padding-left: 25px;
+}
+.firstSelection {
+	width: 100px;
+	height: 25px;
+}
+.secondSelection {
+	width: 150px;
+	height: 25px;
+}
+.street {
+	width: 100px;
+	height: 25px;
+}
+input {
+	border-radius: 3px;
+	padding: 3px;
+	margin-bottom: 10px;
+}
+input[type = number] {
+	width: 50px;
+}
+input[type = color] {
+	width: 80px;
+	height: 20px;
+}
+input[type = reset] {
+	width: 370px;
+	height: 50px;
+	border-radius: 8px;
+	font-size: 20px;
+	color:#3B5997;
+	
+}
+.buttonPosition {
+	padding-left: 25px;
+	padding-top: 20px;
+}
+.registerPosition input {
+	width: 470px;
+}
+.registerPosition {
+	float: right;
+	padding-top: 20px;
+	padding-right: 62px;
+}
+textarea {
+	width: 430px;
+	height: 80px;
+}
+legend {
+	text-align: center;
+}
+label {
+	padding-left: 3px;
+}

@@ -1,0 +1,53 @@
+body {
+	font-family: Tahoma;
+}
+.wrapper {
+	width: 800px;
+	height: 240px;
+	border-radius: 5px;
+	background-color: #FFBFCD;
+}
+h1 {
+	text-align: center;
+	font-size: 23px;
+	padding-top: 5px;
+}
+.logo {
+	width: 160px;
+	height: 120px;
+}
+meter {
+	width: 130px;
+}
+.profile {
+	width: 160px;
+	height: 175px;
+	margin-bottom: 50px;
+	margin-left: 15px;
+	float: left;
+
+}
+audio {
+	width: 250px;
+}
+.upload-audio {
+
+	width: 250px;
+	height: 175px;
+	margin-bottom: 50px;
+	margin-left: 7px;
+	float: left;
+}
+.upload-video {
+
+	width: 330px;
+	height: 180px;
+	margin-bottom: 40px;
+	margin-left: 10px;
+	float: left;
+}
+.user-position {
+	margin: 0px;
+	padding: 0px;
+	font-size: 15px;
+}

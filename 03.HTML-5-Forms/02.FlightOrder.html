@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flight Order</title>
+	<meta charset="utf-8" />
+	<link type="text/css" rel="stylesheet" href="styles/02.FlightOrder.css"/>
+</head>
+<header>
+	<h1>FLIGHT ORDER</h1>
+</header>
+<body>
+	<form>
+		<div class="left-menu">
+			<div class="townid">
+				<label>From</label>
+				<br>
+				<select name="townSelect">
+					<option value="entercity">enter a city</option>
+					<option value="varna">Varna</option>
+					<option value="sofia">Sofia</option>
+				</select>
+			</div>
+			<div class="departure">
+				<label>Departure Date</label>
+				<input name="startDate" type="date">
+			</div>
+			<div class="returnDate">
+				<label>Return Date</label>
+				<input name="startDate" type="date">
+			</div>
+			<div class="range">
+				<label>12+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2-12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0-2</label>
+				<br>
+				<input type="number" min = "2" max = "12">
+				<input type="number" min = "0">
+				<input type="number" min = "0" max = "2">
+			</div>
+		</div>
+	</form>
+</div>
+<form>
+	<div class="right-menu">
+		<div class="townid">	
+			<label>To</label>
+			<br>
+			<select name="town">
+				<option value="entercity">enter a city</option>
+				<option value="varna">Varna</option>
+				<option value="sofia">Sofia</option>
+			</select>
+			<p><input type="checkbox" name="directflight" value="yes">Prefer directs</p>
+			<label>Time Interval</label>
+			<div class="timeInterval">
+				<input name="startTime" type="time">
+				<input name="startTime" type="time">
+			</div>
+			<label>Time Interval</label>
+			<div class="secondTimeInterval">
+				<input name="endTime" type="time">
+				<input name="endTime" type="time">
+			</div>
+			<div class="chooseClass">
+				<label>Choose class</label>
+				<br>
+				<select name="class">
+					<option value="entercity">Economy</option>
+					<option value="varna">History</option>
+					<option value="sofia">English</option>
+				</select>
+			</div>
+			<div class="searchButton">
+				<input type="submit" value="Search">
+			</div>
+		</div>
+	</div>	
+</form>
+</body>
+</html>

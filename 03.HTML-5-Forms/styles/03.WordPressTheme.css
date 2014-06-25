@@ -1,0 +1,28 @@
+body {
+	margin: 0px;
+}
+img {
+	width: 300px;
+	height: 100px;
+}
+.mini-logo {
+	padding-left: 2px;
+	padding-top: 7px;
+	width: 45px;
+	height: 35px;
+}
+.search-position {
+	float: left;
+	padding-top: 20px;
+}
+.position {
+	padding-left: 15px;
+}
+.search-box {
+	float: left;
+	padding-top: 10px;
+}
+.search-box input {
+	height: 5px;
+	padding: 10px;
+}

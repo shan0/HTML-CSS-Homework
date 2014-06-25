@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fakebook Registration Form</title>
+	<meta charset="utf-8" />
+	<link type="text/css" rel="stylesheet" href="styles/04.Fakebook.css"/>
+</head>
+<body>
+	<form>
+		<h1>fakebook<span>&reg;</span></h1>
+		<h2>Registration</h2>
+		<h3>It is safe and it will always be!</h3>
+		<div class = "left-side">
+			<fieldset class = "nonImportant">
+				<legend>None-Important Information</legend>
+				<input type="text" name="firstName" placeholder = "First Name" >
+				<input type="text" name="lastName" placeholder = "Last Name" >
+				<input type="email" name="email" placeholder = "Your Email" >
+				<input type="tel" name="userPhone" placeholder = "Phone Number" >
+				<label>Birthday</label>
+				<br>
+				<input name="departure" type="date" />
+				<br>	
+				<input type="radio" name="city" value="1" /> Male
+				<input type="radio" name="city" value="2" /> Female
+				<input type="radio" name="city" value="3" /> Other
+			</fieldset>
+		</div>
+		<fieldset class = "important">
+			<legend>Important information *required</legend>
+			<select name="Country" class="firstSelection">
+				<option value="Country" selected="selected">Country</option>
+				<option value="Value 1">Bulgaria</option>
+				<option value="Value 2">Greece</option>
+				<option value="Value 3">USA</option>
+			</select>
+			<input type="text" name="village" required = "required" placeholder = "Village" >
+			<input type="text" name="district" required = "required" placeholder = "District" >
+			<input type="text" name="street" required = "required" placeholder = "Street" >
+			<input type="number" required = "required" placeholder = "Nr" >
+			<input type="number" required = "required" placeholder = "Floor" >
+			<input type="number" required = "required" placeholder = "Ap Nr" >
+			<input name="backgroundColor" type="color" />
+			<input type="text" required = "required" placeholder = "Water Meter Nr" >
+			<select name="Aunt Pantie's Size" class="secondSelection">
+				<option value="Aunt Pantie's Size" selected="selected">Aunt Pantie's Size</option>
+				<option value="Value 1">S</option>
+				<option value="Value 2">M</option>
+				<option value="Value 3">XXL</option>
+			</select>
+			<label>More Personal Information</label>
+			<br>
+			<textarea name="comments">Gives us more information!!</textarea>
+		</fieldset>
+		<div class="registerPosition">
+			<input type="reset" value="Register">
+		</div>
+		<div class="buttonPosition">
+			<input type="reset" value="Clear form">
+		</div>
+	</form>
+</body>
+</html>

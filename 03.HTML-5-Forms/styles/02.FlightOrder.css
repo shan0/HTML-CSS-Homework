@@ -1,0 +1,88 @@
+body {
+	font-family: Tahoma;
+}
+header {
+	width: 436px;
+	height: 100px;
+	background-color: #FFBFCD;
+	padding-top: 5px;
+	font-style: italic;
+}
+.left-menu , .right-menu{
+	width: 218px;
+	height: 270px;
+	float: left;
+	background-color: #FFBFCD;
+	font-style: italic;
+	font-size: 15px;
+}
+.townid  {
+	padding-left: 10px;
+	width: 90%;
+}
+.townid select {
+	width: 100%;
+	height: 25px;
+}
+.departure {
+	padding-left: 10px;
+	margin-top: 20px;
+	padding-top: 7px;
+}
+.departure input {
+	width: 92%;
+	height: 25px;
+}
+.returnDate {
+	padding-left: 10px;
+	margin-top: 0px;
+	padding-top: 7px;
+}
+.returnDate input{
+	width: 92%;
+	height: 25px;
+}
+.range {
+	padding-left: 10px;
+	margin-top: 0px;
+	padding-top: 7px;
+}
+.range input {
+	width: 28%;
+	height: 15px;
+}
+.timeInterval {
+	padding-top: 3px;
+	margin:0px;
+}
+.timeInterval input {
+	width: 46%;
+	height: 25px;
+}
+.secondTimeInterval {
+	padding-top: 7px;
+}
+.secondTimeInterval input {
+	width: 46%;
+	height: 25px;
+}
+.chooseClass {
+	padding-top: 5px;
+}
+
+.right-menu p {
+	margin-top: 15px;
+	margin: 3px;
+}
+.searchButton {
+	padding-top: 5px;
+}
+.searchButton input{
+	font-weight: bolder;
+	width: 100%;
+	height: 30px;
+}
+h1 {
+	font-size: 30px;
+	text-align: center;
+}

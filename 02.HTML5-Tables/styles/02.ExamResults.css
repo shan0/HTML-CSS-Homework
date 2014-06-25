@@ -1,0 +1,19 @@
+table td {
+	padding: 5px;
+	font-family: Tahoma;
+	border: 1px solid black;
+}
+table th {
+	border: 1px solid black;
+}
+table thead tr th {
+	font-size: 25px;
+	text-decoration: bold;
+}
+th.headings {
+	font-size: 20px;
+}
+
+tfoot tr td {
+	padding-left: 140px;
+}

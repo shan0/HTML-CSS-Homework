@@ -1,0 +1,40 @@
+body {
+	font-family: Tahoma;
+}
+.wrapper {
+	width: 550px;
+	height: 260px;
+	border-radius: 8px;
+	background-color: black;
+}
+h1 {
+	color: #F6BA26;
+	text-align: center;
+	padding-top: 10px;
+	font-weight: bolder;
+}
+iframe {
+	margin-left: 20px;
+	border: 1px solid #F6BA26;
+	float: left;
+}
+.menu {
+	padding-left: 20px;
+	float: left;
+	margin: 10px;
+
+}
+ a {
+	font-size: 23px;
+	font-family: sans-serif;
+	color: white;
+	font-style: italic;
+
+}
+a:link {
+	text-decoration: none;
+}
+.car-menu {
+	padding: 0px;
+	margin: 0px;
+}
