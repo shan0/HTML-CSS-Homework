@@ -1,10 +1,205 @@
 body {
 	padding: 0px;
 	margin: 0px;
+	font-family: Tahoma;
 }
-.wrapper {
+#wrapper {
 	width: 1215px;
-	height: 441px;
+	height: 422px;
 	background-color: #00923E;
-	border: 1px solid black;
+	padding-top: 18px;
 }
+table td{
+	font-size: 20px;
+	border: 1px solid black;
+	text-align: center;
+}
+table tr {
+	height: 65px;
+}
+table { 
+	border-radius: 20px;
+	border:1px solid black;
+	width: 1175px;
+	height: 410px;
+	margin: auto;
+}
+#first-row {
+	height: 60px;
+	background-color: #F8C711;
+	font-weight: bold;
+}
+#first-row td{
+	font-size: 30px;
+}
+table td:nth-child(1) {
+	text-align: right;
+	padding-right: 8px;
+	width: 195px;
+}
+table td:nth-child(2) {
+	width: 113px;
+}
+table td:nth-child(3) {
+	text-align: left;	
+	padding-left: 10px;
+}
+table td:nth-child(7) {
+	text-align: right;
+	width: 150px;
+	padding-right: 7px;
+}
+table td:nth-child(8) {
+	text-align: right;
+	width: 55px;
+	padding-right: 7px;
+}
+table tr:nth-child(2) td:nth-child(1) div.image  {
+	content: url(../images/flag-01.jpg);
+	margin-top: 5px;
+	margin-right: 4px;
+	float: right;
+}
+table tr:nth-child(3) td:nth-child(1) div.image  {
+	content: url(../images/flag-02.jpg);
+	margin-top: 5px;
+	margin-right: 4px;
+	float: right;
+}
+table tr:nth-child(4) td:nth-child(1) div.image  {
+	content: url(../images/flag-03.jpg);
+	margin-top: 5px;
+	margin-right: 4px;
+	float: right;
+}
+table tr:nth-child(5) td:nth-child(1) div.image  {
+	content: url(../images/flag-04.jpg);
+	margin-top: 5px;
+	margin-right: 4px;
+	float: right;
+}
+table tr:nth-child(6) td:nth-child(1) div.image  {
+	content: url(../images/flag-05.jpg);
+	margin-top: 5px;
+	margin-right: 4px;
+	float: right;
+}
+table tr:nth-child(2) td:nth-child(3) div.secondImage  {
+	content: url(../images/flag-06.jpg);
+	margin-top: 5px;
+	margin-right: 4px;
+	float: left;
+}
+table tr:nth-child(3) td:nth-child(3) div.secondImage  {
+	content: url(../images/flag-07.jpg);
+	margin-top: 5px;
+	margin-right: 4px;
+	float: left;
+}
+table tr:nth-child(4) td:nth-child(3) div.secondImage  {
+	content: url(../images/flag-08.jpg);
+	margin-top: 5px;
+	margin-right: 4px;
+	float: left;
+}
+table tr:nth-child(5) td:nth-child(3) div.secondImage  {
+	content: url(../images/flag-09.jpg);
+	margin-top: 5px;
+	margin-right: 4px;
+	float: left;
+}
+table tr:nth-child(6) td:nth-child(3) div.secondImage  {
+	content: url(../images/flag-10.jpg);
+	margin-top: 5px;
+	margin-right: 4px;
+	float: left;
+}
+table tr:nth-child(2) td:nth-child(4)  {width:110px; text-align: center;}
+table tr:nth-child(3) td:nth-child(4)  {width:110px; text-align: center;}
+table tr:nth-child(4) td:nth-child(4)  {width:110px; text-align: center;}
+table tr:nth-child(5) td:nth-child(4)  {width:110px; text-align: center;}
+table tr:nth-child(6) td:nth-child(4)  {width:110px; text-align: center;}
+
+table tr:nth-child(2) td:nth-child(5)  {width:160px; text-align: right; padding-right: 10px;}
+table tr:nth-child(3) td:nth-child(5)  {width:160px; text-align: right; padding-right: 10px;}
+table tr:nth-child(4) td:nth-child(5)  {width:160px; text-align: right; padding-right: 10px;}
+table tr:nth-child(5) td:nth-child(5)  {width:160px; text-align: right; padding-right: 10px;}
+table tr:nth-child(6) td:nth-child(5)  {width:160px; text-align: right; padding-right: 10px;}
+
+table tr:nth-child(2) td:nth-child(6)  {width:123px; text-align: center;}
+table tr:nth-child(3) td:nth-child(6)  {width:123px; text-align: center;}
+table tr:nth-child(4) td:nth-child(6)  {width:123px; text-align: center;}
+table tr:nth-child(5) td:nth-child(6)  {width:123px; text-align: center;}
+table tr:nth-child(6) td:nth-child(6)  {width:123px; text-align: center;}
+
+
+table tr:nth-child(2) td:nth-child(7)  {width:160px; text-align: left; padding-left: 9px;}
+table tr:nth-child(3) td:nth-child(7)  {width:160px; text-align: left; padding-left: 9px;}
+table tr:nth-child(4) td:nth-child(7)  {width:160px; text-align: left; padding-left: 9px;}
+table tr:nth-child(5) td:nth-child(7)  {width:160px; text-align: left; padding-left: 9px;}
+table tr:nth-child(6) td:nth-child(7)  {width:160px; text-align: left; padding-left: 9px;}
+
+tr:nth-child(even) {
+	background-color: white;
+}
+tr:nth-child(odd) {
+	background-color: #C8C8C8;
+}
+tr:nth-child(1) td:nth-child(1) {
+	border-top-left-radius: 20px;
+}
+tr:nth-child(1) td:nth-child(5) {
+	border-top-right-radius: 20px;
+}
+tr:nth-child(6) td:nth-child(1) {
+	border-bottom-left-radius: 20px;
+}
+tr:nth-child(6) td:last-child {
+	border-bottom-right-radius: 20px;
+}
+input.goals {
+	border: 1px solid #AFAFAF;
+	width:42px;
+	height: 40px;
+	background-color: #DCDCDC;
+	color: #FF004B;
+	font-size: 21px;
+	text-align: center;
+	font-family: Tahoma;
+}
+input.goals-white {
+	border: 1px solid #AFAFAF;
+	width:43px;
+	height: 40px;
+	background-color: white;
+	color: green;
+	font-size: 21px;
+	text-align: center;
+	font-family: Tahoma;
+}
+.image {
+	padding-left:5px;
+}
+button {
+	width: 45px;
+	height: 45px;
+	border-radius: 30px;
+}
+.red {
+	background-color: red;
+	color: white;
+}
+.green {
+	background-color: green;
+	color: white;
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+

@@ -1,0 +1,141 @@
+body {
+	padding:0;
+	margin:0;
+	font-family: 'PT Sans', Tahoma, sans-serif;
+	background-color: #eee;
+	font-size: 14px;
+}
+* {
+	padding:0;
+	margin: 0;
+}
+.wrapper {
+	width: 100%;
+	height: 110px;
+	background-color: #234465;
+	background-image: url("../images/logo.jpg");
+	background-repeat: no-repeat;
+	background-position: 8% 57%;
+}
+.logo {
+	margin-top: 10px;
+	margin-left: 90px;
+}
+.nav-bar > li {
+	display: inline-block;
+	font-size: 15px;
+	color: #FFF;
+	text-transform: uppercase;
+	padding-left: 50px;
+}
+.nav-bar li a {
+	color:#FFF;
+	text-decoration: none;
+}
+ul.nav-bar {
+	float:right;
+	margin-right: 40px;
+	display: block;
+	padding-top: 65px;
+
+}
+.login-search {
+
+	display:block;
+	position: absolute;
+	top:0;
+	right:0;
+	margin-top: 10px;
+	margin-right: 40px;
+}
+input[type=text] {
+	width:265px;
+	height: 30px;
+	padding-left: 10px;
+	border-radius: 7px;
+}
+.login-search2 {
+	display:block;
+	position: absolute;
+	top:20px;
+	right:320px;
+
+}
+.login-search3 {
+	display:block;
+	position: absolute;
+	top:20px;
+	right:380px;
+
+}
+.image {
+	content: url("../images/bell.jpg");
+	float:right;
+	padding-left: 5px;
+}
+.imgClass {
+	background-image: url("../images/glass-icon.png");
+	background-repeat: no-repeat;
+	width: 34px;
+	height: 30px;
+	background-position: 9px 6px;
+	background-color: #FFF;
+	outline: 0;
+	border:0px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: -35px;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	cursor: pointer;
+	border-left:1px solid #AFAFAF;
+	border-left-style
+}
+a:hover{
+	color:green;
+}
+nav ul ul {
+	display:none;
+}
+nav ul li:hover > ul {
+	display: block;
+	position: absolute;
+	list-style: none;
+	margin-top: 8px;
+	padding-top: 10px;
+	background-color: #234465;
+}
+nav ul li:hover ul li {
+	display: block;
+	width:370px;
+	background-color: #234465;
+	border:1px solid #AFAFAF;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	text-transform: none;
+}
+nav ul li:hover ul li ul li {
+	display: block;
+	width:380px;
+	background-color: #234465;
+	border:1px solid #AFAFAF;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	text-transform: none;
+}
+.dropdown-arrow {
+	display: inline-block;
+	content: url("../images/dropdown-arrow.jpg");
+}
+.user:hover {
+	display: block;
+	width:200px;
+	background-color: #234465;
+	border:1px solid #AFAFAF;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	text-transform: none;
+}

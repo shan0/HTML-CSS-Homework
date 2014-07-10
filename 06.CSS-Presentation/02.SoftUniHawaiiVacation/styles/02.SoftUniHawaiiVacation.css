@@ -1,0 +1,73 @@
+
+@font-face {
+	font-family: 'Animated';
+	src: url('Animated.ttf');
+}
+body {
+	font-family: 'Animated';
+}
+.wrapper {
+	
+	width:900px;
+	height: 400px;
+	padding:0;
+	margin: 0;
+
+	background: -webkit-radial-gradient(left 20% ,white,#006EDB,#006EDB); /* Safari */
+	background: radial-gradient(left 20%,white,#70ABE1,#006EDB); /* Standard syntax */
+	background: -moz-radial-gradient(20% ,white,#70ABE1,#006EDB); /* For Firefox 3.6-15 */
+	background: -o-radial-gradient(20% ,white,#70ABE1,#006EDB); /* For Opera 11.6-12.0 */
+
+}
+* {
+	padding:0;
+	margin: 0;
+}
+.background-gradient {
+	width: 100%;
+	height: 601px;
+	background-image: url("../images/background.png");
+	background-repeat: no-repeat;
+}
+p {
+	color: #FDBC21;
+	float:right;
+	font-size: 50px;
+	font-family: 'Animated';
+	margin-right: 20px;
+	margin-top: 14px;
+}
+.Vlado {
+	margin-top: 221px;
+	margin-left: 40px;
+	float:left;
+	position: absolute;
+}
+.Petia {
+	position: absolute;
+	float:left;
+	margin-left: 182px;
+	margin-top: 190px;
+}
+.Tedi {
+	position: absolute;
+	margin-top: 360px;
+	margin-left: 261px;
+}
+.Nakov {
+	position: absolute;
+	margin-top: 155px;
+	margin-left: 410px;
+}
+.Alex {
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 490px;
+}
+.VladoK {
+	position: absolute;
+	margin-top: 232px;
+	margin-left: 670px;
+}
+
+

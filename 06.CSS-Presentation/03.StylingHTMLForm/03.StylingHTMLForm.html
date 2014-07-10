@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Styling a HTML Form</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="styles/03.StylingHTMLForm.css" type="text/css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="your-details">
+			<p class="steps">Step 1: Your details</p>
+			<div class="box">
+				<p class="nameе">Name</p>
+				<input type="text" name="firstandlast" placeholder = "First and last name">
+			</div>
+			<div class="box">
+				<p class="nameе">Email</p>
+				<input type="email" name="Email" placeholder = "example@domain.com">
+			</div>
+			<div class="box">
+				<p class="nameе">Phone</p>
+				<input type="tel" name="phone" placeholder = "eg. +4475000000000">
+			</div>
+		</div>
+		<div class="delivery-adress">
+			<p class="steps">Step 1: Delivery adress</p>
+			<div class="adress">
+				<p class="delivery">Address</p>
+				<textarea name="adress" id="adress" cols="30" rows="10"></textarea>
+			</div>
+			<div class="box">
+				<p class="nameе">Post Code</p>
+				<input type="text" name="postcode">
+			</div>
+			<div class="box">
+				<p class="nameе">Country</p>
+				<input type="text" name="country">
+			</div>
+		</div>
+		<div class="card-details">
+			<p class="steps">Step 1: Card details</p>
+			<div class="cardtype">
+				<p class="delivery">Card type</p>
+				<div class="position">
+					<form>
+						<label><input type="radio" name="sex" value="visa" /><div class="image"></div> VISA</label>
+						<label><input type="radio" name="sex" value="amex" /> <div class="image2"></div>AmEx</label>
+						<label><input type="radio" name="sex" value="male" /> <div class="image3"></div>Mastercard</label>
+					</form>
+				</div>
+			</div>
+			<div class="box">
+				<p class="nameе">Card number</p>
+				<input type="text" name="cardnum">
+			</div>
+			<div class="box">
+				<p class="nameе">Security code</p>
+				<input type="text" name="securitycode">
+			</div>
+			<div class="box">
+				<p class="nameе">Name on card</p>
+				<input type="text" name="cardname" placeholder = "exact name as on the card">
+			</div>
+			<button>buy it!</button>
+		</div>
+	</div>
+</body>
+</html>
